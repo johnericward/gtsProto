@@ -303,6 +303,15 @@ a:hover {
 }
 
 
+.homeFooterLinks {
+  color:rgb(41, 72, 156);
+}
+
+.homeFooterLinks:hover {
+  color:rgb(117, 199, 240);
+}
+
+
 /* ------------------------------QUIZ---------------------------------- */
 
 .quizBackground {
@@ -312,7 +321,85 @@ a:hover {
 
   z-index: 7;
 
-  background-position: center;
+  background-attachment: fixed;
+  background-position: center top;
+  height: 100vh;
   
   
 }
+
+
+
+.quizLogo {
+ 
+
+  width: 50%;
+  /* position:absolute; */
+  /* right: 2%; */
+
+  align-items: right;
+  align-content: right;
+
+  margin: 2% auto;
+}
+/* .quizLogoHREF {
+  background-color: red;
+
+  right: 2%;
+  
+  margin: 2% auto;
+} */
+
+
+
+/* .quizLogoSpacer {
+ 
+
+  width: 50%;
+  
+  right: 2%;
+ 
+  margin: 2% auto;
+  opacity: 0.1;
+  background-color: red;
+} */
+
+
+.quizContent {
+  margin: 8% auto;
+}
+
+
+.questionText {
+  /* text-align: center; */
+}
+
+.questionAnswers {
+  /* text-align: center; */
+  margin: 7% auto;
+}
+
+
+
+.quizBackNextBtnRow {
+  margin: 2% auto 0 auto;
+}
+
+.quizBackBtn {
+  text-align: center;
+  /* margin: 0 auto; */
+  color:rgb(117, 199, 240);
+  
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+.quizNextBtn {
+  text-align: center;
+  color:rgb(117, 199, 240);
+  
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
