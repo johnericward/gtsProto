@@ -1,0 +1,318 @@
+html, body {
+    width: 100%;
+   
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    
+    
+}
+
+a {
+    color: black;
+}
+a:hover {
+    
+    text-decoration: none;
+}
+
+.fonts {
+    /* font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: neuzeit-grotesk-condensed, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+    font-family: neuzeit-grotesk-extra-conden, sans-serif;
+    font-weight: 900;
+    font-style: normal; */
+
+/* 
+
+    Proxima Nova Regular
+
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    Proxima Nova Italic
+    
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+    Proxima Nova Bold
+    
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    Proxima Nova Bold Italic
+    
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+ */
+
+
+
+    /* Proxima Nova Extra Condensed Regular
+    
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    Proxima Nova Extra Condensed Italic
+    
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    Proxima Nova Extra Condensed Bold
+    
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    Proxima Nova Extra Condensed Bold Italic
+    
+    font-family: "proxima-nova-extra-condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    Proxima Nova Condensed Regular
+    
+    font-family: "proxima-nova-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    Proxima Nova Condensed Italic
+    
+    font-family: "proxima-nova-condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    Proxima Nova Condensed Bold
+    
+    font-family: "proxima-nova-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    Proxima Nova Condensed Bold Italic
+    
+    font-family: "proxima-nova-condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic; */
+
+
+
+}
+
+/* --------------------------NAV---------------- */
+
+
+
+  .topnav {
+    overflow: hidden;
+    /* background-color: rgb(255, 255, 255); */
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgb(117, 199, 240);
+    padding: 14px 16px;
+    /* padding: 5%; */
+    text-decoration: none;
+    font-size: 17px;
+    /* margin: 1%; */
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: rgba(0,0,0,0);
+    color: #394494;
+  }
+  
+  /* .active {
+    background-color: #04AA6D;
+    color: white; */
+
+  .navText {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 3vw;
+    
+  }
+
+  .navText:a {
+      font-size: 3vw;
+  }
+
+  .navSpan {
+      font-size: 2vw;
+  }
+
+  #myLinks {
+      margin: 4.5%;
+      font-size: 3vw;
+  }
+
+/* --------------------------END OF NAV---------------- */
+
+
+
+/* -------------------HOME PAGE------------------------- */
+
+.outerBanks {
+  /* position: relative; */
+  /* height: 100vh; */
+}
+
+
+.homeBackground {
+  background-image: url(assets/homeBackground.jpg);
+  
+  
+  background-size: cover;
+
+  z-index: 7;
+
+  background-attachment: fixed;
+  background-position: center top;
+  height: 100vh;
+
+  /* top: 50%; */
+
+  /* background-repeat: no-repeat; */
+  
+  
+}
+
+
+
+.wordmark {
+  width: 55%;
+  margin: 4%;
+}
+
+.anotherWrapper {
+  /* height: 100vh; */
+}
+
+.start {
+  
+  margin: auto;
+  text-align: center;
+  /* position: relative; */
+  justify-content: center;
+
+
+  margin: 70% auto;
+  /* margin: 100% auto; */
+}
+
+.startText {
+    text-align: center;
+    align-content: center;
+    /* margin: 60% auto 0 auto; */
+    align-items: center;
+    /* position: relative; */
+    justify-content: center;
+
+    color: rgb(117, 199, 240);
+
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+    font-size: 2.7vw;
+    color: black;
+    vertical-align: center;
+  
+
+}
+
+.startTextA{
+  color: rgb(117, 199, 240);
+}
+.startTextA:hover span {
+    display:none;
+}
+.startTextA:hover:after {
+   
+    content:"Start!"
+}
+.startTextA:hover {
+    color:rgb(41, 72, 156);
+}
+
+
+
+
+.bottomHomeNav {
+  color:rgb(41, 72, 156);
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+    font-style: normal;
+    /* position: fixed; 
+    bottom: 0; */
+}
+.bottomHomeNavLeft {
+ margin: 0 auto;
+ /* text-align: center; */
+ vertical-align: text-bottom;
+ position: fixed; 
+    bottom: 2%;
+    left: 2%;
+    /* background-color: green; */
+ /* left: 3%; */
+}
+.lefty {
+  /* position: absolute;  */
+  /* bottom: 3%;
+  left: 3%; */
+  /* background-color: red; */
+}
+
+.bottomHomeNavRight {
+  margin: 0 auto;
+  text-align: right;
+  position: fixed; 
+    bottom: 2%;
+    left: 40%;
+  /* right: 7%; */
+  /* background-color: red; */
+}
+
+.righty {
+  /* position: absolute;  */
+  bottom: 3%;
+  left: 3%;
+  /* background-color: red; */
+}
+
+
+/* ------------------------------QUIZ---------------------------------- */
+
+.quizBackground {
+  background-image: url(assets/background.jpg);
+  
+  background-size: cover;
+
+  z-index: 7;
+
+  background-position: center;
+  
+  
+}
