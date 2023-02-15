@@ -339,6 +339,8 @@ a:hover {
 
   align-items: right;
   align-content: right;
+  text-align: right;
+  /* background-color: red; */
 
   margin: 2% auto;
 }
@@ -403,3 +405,56 @@ a:hover {
   font-style: bold;
 }
 
+
+
+/* ========================{ Media Queries }======================================= */
+
+  /* PHONES */
+
+  @media screen and (max-width: 992px) {
+  
+    .wordmark {
+      width:37%;
+      margin: 4%;
+    }
+
+
+    .start {
+  
+      margin: auto;
+      text-align: left;
+      /* position: relative; */
+      justify-content: center;
+    
+    
+      margin: 30% auto;
+      /* margin: 100% auto; */
+    }
+    
+    .startText {
+        text-align: left;
+        margin: auto 5%;
+        align-content: center;
+        /* margin: 60% auto 0 auto; */
+        align-items: center;
+        /* position: relative; */
+        justify-content: center;
+    
+        color: rgb(117, 199, 240);
+    
+    
+        font-family: proxima-nova, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        
+        font-size: 4.7vw;
+        color: black;
+        vertical-align: center;
+      
+    
+    }
+
+
+
+
+}
